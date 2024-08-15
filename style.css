@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol, ul,li {
 	list-style: none;
 }
 blockquote, q {
@@ -48,6 +48,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 *,*::before,*::after{
     box-sizing: border-box;
     outline: 1px solid black;
@@ -61,6 +63,10 @@ a{
     display: inline-block;
     text-decoration: none;
     color:#000;
+}
+a:hover{
+    cursor:pointer;
+    color:blue;
 }
 body{
     font-family: "Castoro", serif;
@@ -97,6 +103,7 @@ body{
     color:#AE0000;
     font-size: 40px;
     border-bottom:3px solid #AE0000;
+
 }
 
 .about-item{
@@ -117,6 +124,9 @@ body{
 .mb-4{
     margin-bottom: 16px;
 }
+.mb-10{
+    margin-bottom: 40px;
+}
 .mb-20{
     margin-bottom: 80px;
 }
@@ -132,6 +142,7 @@ body{
 .pl-3{
     padding-left: 12px;
 }
+
 .pr-3{
     padding-right: 12px;
 }
@@ -145,9 +156,7 @@ body{
 }
 .social-list li{
     display: inline-block;
-
 }
-.about-item a:hover{
-    cursor:pointer;
-    color:blue;
+.social-list img{
+    margin:0 20px;
 }
